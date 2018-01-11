@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e69d27a9-f58b-4785-9cfc-d1c3b11c5d33</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ReSample.py</StartupFile>
+    <StartupFile>tkinterSample.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ShUtilSample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkinterSample.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ZipSample.py">
