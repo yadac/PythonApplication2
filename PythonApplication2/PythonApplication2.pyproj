@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e69d27a9-f58b-4785-9cfc-d1c3b11c5d33</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>crawlingSample.py</StartupFile>
+    <StartupFile>scrapingSample.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
