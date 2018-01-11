@@ -34,6 +34,9 @@
     <Compile Include="ReSample.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="scrapingSample.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ShUtilSample.py">
       <SubType>Code</SubType>
     </Compile>

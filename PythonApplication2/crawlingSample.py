@@ -15,22 +15,22 @@ str = f.read()
 d_str = str[:1024].decode("ascii", errors = "replace")
 match = re.search(r"charset=[\"]?([\w-]+)", d_str)
 if match:
-	print(match)
 	enc_type = match.group(1)
 else:
 	print("un-match!!")
 
 print(enc_type)
-print(f.getheader("Content-Type"))
+# print(f.getheader("Content-Type"))
 
 # http status 2xx = ok, 4xx = error, 5xx = server error
 # print(f.status)
 
 # decode by utf-8
-data = f.read().decode(enc_type)
+# httpResponse.Read() is queue? dont read again. 
+data = str.decode(enc_type)
 print(data)
 
-wf = open("python-site.txt", "w", encoding = "utf-8")
+wf = open("python-site.html", "w", encoding = "utf-8")
 wf.write(data)
 wf.close()
 
